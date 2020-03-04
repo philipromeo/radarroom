@@ -1,7 +1,7 @@
 # Radarroom
 
-<p>In order to use the app you have:</p>
+<p>Missing part</p>
 <ol>
-	<li> Add mongodb database connection.</li>
-	<li>Add google map key.</li>
+	<li>Mongodb database connection.</li>
+	<li>Google map key.</li>
 </ol>

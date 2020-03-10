@@ -13,12 +13,10 @@ const Map = props => {
       zoom: zoom,
       location: location
     });
+    Object.values(location).forEach(function(value) {
+      return new window.google.maps.Marker({ position: value, map: map });
+  });
 
-    location.map(location => {
-      location.lat = parseFloat(location.lat);
-      location.lng = parseFloat(location.lng);
-        return new window.google.maps.Marker({ position: location, map: map, center: location });
-    })
  } catch (err) {
     console.log(err);
   }

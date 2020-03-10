@@ -1,9 +1,7 @@
 import React from "react";
 
-//import Button from "../../Shared/Components/FormElements/Button";
 import Card from "../../Shared/Components/UIElements/Card";
 import Element from "./Element";
-//import "./PlaceList.css";
 
 const ElementList = props => {
   if (props.items.length === 0) {

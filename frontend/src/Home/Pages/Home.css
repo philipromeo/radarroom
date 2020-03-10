@@ -1,27 +1,29 @@
 .HomeMap {
-  height: 85% !important;
-  width: 46% !important;
-  display: block !important;
-  left: auto !important;
-  position: fixed !important;
+  height: 85% ;
+  width: 46% ;
+  display: block;
+  left: auto ;
+  position: fixed;
 
-  right: 1rem !important;
-
+  right: 1rem ;
   margin-top: 5rem;
   margin-bottom: 20rem;
   top: 0px;
   bottom: 0px;
 }
 
-@media screen and (max-width: 480px) {
-
-  .HomeMap {
-      display:none;
-  }
+.map {
+  width: 100%;
+  height: 100%;
 }
+
 
 .navbar-search-front .card {
   width: 100%;
+}
+
+.loadCenter{
+  padding: 50%;
 }
 
 .navbar-list-element {
@@ -59,4 +61,32 @@
 
 p h1 h2 h3 h4 h5 h6::first-letter {
   text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .HomeMap {
+    margin: 0;
+    display: none;
+  }
+  
+  .navbar-search-front {
+    width: 90%;
+    height: 10rem;
+    left: auto;
+    right: auto;
+  
+    margin: 2rem;
+  
+    justify-content: space-between;
+  }
+
+  .search-container{
+    width: auto;
+    height: auto;
+  }
+  .element-list-home{
+
+    margin-right: 0%;
+    width: auto;
+  }
 }

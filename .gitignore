@@ -1,8 +1,0 @@
-backend/nodemon.json
-frontend/.env
-.gitignore
-
-//"mongodb+srv://dbPublic:WmS75XvxnelmSYFc@cluster0-i5ohp.mongodb.net/mern?retryWrites=true&w=majority",
-//"mongodb+srv://filippo:YWeiZpm27UEslEp1@cluster0-7qzbw.mongodb.net/mern?retryWrites=true&w=majority", 
-//node -r esm placeSeeder.js,
-//node -r esm userSeeder.js

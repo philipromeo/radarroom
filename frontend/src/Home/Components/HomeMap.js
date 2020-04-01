@@ -55,7 +55,7 @@ export default class ShelterMap extends Component {
   }
   componentDidMount() {
     //fetch("https://api.harveyneeds.org/api/v1/shelters?limit=10")
-    fetch(`${process.env.REACT_APP_BACKEND_ASSET_URL}api/search`)
+    fetch(`${process.env.REACT_APP_BACKEND_ASSET_URL}/api/search`)
       .then(r => r.json())
       .then(data => {
         // console.log(data)

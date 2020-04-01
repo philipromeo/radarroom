@@ -61,7 +61,7 @@ const NewPlace = () => {
       formData.append("image", formState.inputs.image.value);
       formData.append("leaseTime", formState.inputs.leaseTime.value);
       formData.append("price", formState.inputs.price.value);
-      await sendRequest(`${process.env.REACT_APP_BACKEND_ASSET_URL}places`, "POST", formData, {
+      await sendRequest(`${process.env.REACT_APP_BACKEND_ASSET_URL}/api/places`, "POST", formData, {
         Authorization: "Bearer " + auth.token
       });
       history.push("/");

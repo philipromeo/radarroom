@@ -24,7 +24,7 @@ const Home = () => {
     const fetchPlaces = async () => {
       try {
         const responseData = await sendRequest(
-          `${process.env.REACT_APP_BACKEND_ASSET_URL}api/search`
+          `${process.env.REACT_APP_BACKEND_ASSET_URL}/api/search`
         );
         return responseData;
       } catch (err) {}
@@ -39,7 +39,7 @@ const Home = () => {
 
   const inputsHandler = async val => {
     try {
-      let responseData = await fetch(`${process.env.REACT_APP_BACKEND_ASSET_URL}api/search?`, {
+      let responseData = await fetch(`${process.env.REACT_APP_BACKEND_ASSET_URL}/api/search?`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

@@ -1,27 +1,31 @@
 {
-  "_from": "npm",
+  "_args": [
+    [
+      "npm@6.13.7",
+      "/Users/filippo/Desktop/RadarRoom/radarroom/backend"
+    ]
+  ],
+  "_from": "npm@6.13.7",
   "_id": "npm@6.13.7",
   "_inBundle": false,
   "_integrity": "sha512-X967EKTT407CvgrWFjXusnPh0VLERcmR9hZFSVgkEquOomZkvpwLJ5zrQ3qrG9SpPLKJE4bPLUu76exKQ4a3Cg==",
   "_location": "/npm",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "npm",
+    "raw": "npm@6.13.7",
     "name": "npm",
     "escapedName": "npm",
-    "rawSpec": "",
+    "rawSpec": "6.13.7",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "6.13.7"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/npm/-/npm-6.13.7.tgz",
-  "_shasum": "9533a3ddc57f9792db8a8b303efabaf878047841",
-  "_spec": "npm",
+  "_spec": "6.13.7",
   "_where": "/Users/filippo/Desktop/RadarRoom/radarroom/backend",
   "author": {
     "name": "Isaac Z. Schlueter",
@@ -29,8 +33,8 @@
     "url": "http://blog.izs.me"
   },
   "bin": {
-    "npm": "bin/npm-cli.js",
-    "npx": "bin/npx-cli.js"
+    "npm": "./bin/npm-cli.js",
+    "npx": "./bin/npx-cli.js"
   },
   "bugs": {
     "url": "https://npm.community/c/bugs"
@@ -3025,7 +3029,6 @@
     "worker-farm": "^1.7.0",
     "write-file-atomic": "^2.4.3"
   },
-  "deprecated": false,
   "description": "a package manager for JavaScript",
   "devDependencies": {
     "deep-equal": "^1.0.1",

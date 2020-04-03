@@ -3,7 +3,7 @@ const { check } = require("express-validator");
 
 const placeControllers = require("../Controllers/Place-controllers");
 const fileUpload = require("../Middleware/File-upload");
-const checkAuth = require("../middleware/check-auth");
+const checkAuth = require("../Middleware/check-auth");
 
 const router = express.Router();
 

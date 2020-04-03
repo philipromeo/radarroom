@@ -4,7 +4,7 @@ const { validationResult } = require("express-validator");
 const mongoose = require("mongoose");
 
 const HttpError = require("../Model/Http-error");
-const getCoordsForAddress = require("../util/location");
+const getCoordsForAddress = require("../Util/location");
 const Place = require("../Model/Place");
 const User = require("../Model/User.js");
 

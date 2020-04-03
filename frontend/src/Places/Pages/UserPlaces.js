@@ -13,6 +13,7 @@ const UserPlaces = () => {
   const userId = useParams().userId;
 
   useEffect(() => {
+
     const fetchPlaces = async () => {
       try {
         const responseData = await sendRequest(

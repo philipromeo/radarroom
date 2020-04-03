@@ -14,8 +14,8 @@ router.get("/user/:uid", placeControllers.getPlacesByUserId);
 router.use(checkAuth);
 
 router.post(
-  "/",
-  fileUpload.single("image"),
+  '/',
+  fileUpload.single('image'),
   [
     check("title")
       .not()
@@ -30,12 +30,12 @@ router.post(
     check("price")
       .not()
       .isEmpty()
-  ],
-  placeControllers.createPlace
-);
-
-router.patch(
-  "/:pid",
+    ],
+    placeControllers.createPlace
+  );
+  
+  router.patch(
+    '/:pid',
   [
     check("title")
       .not()
@@ -47,10 +47,10 @@ router.patch(
     check("price")
       .not()
       .isEmpty()
-  ],
-  placeControllers.updatePlace
-);
-
-router.delete("/:pid", placeControllers.deletePlace);
-
+    ],
+    placeControllers.updatePlace
+  );
+  
+  router.delete('/:pid', placeControllers.deletePlace);
+  
 module.exports = router;

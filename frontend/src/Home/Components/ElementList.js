@@ -2,6 +2,7 @@ import React from "react";
 
 import Card from "../../Shared/Components/UIElements/Card";
 import Element from "./Element";
+import "./Element_list.css";
 
 const ElementList = props => {
   if (props.items.length === 0) {
@@ -30,7 +31,6 @@ const ElementList = props => {
           />
         ))}
       </ul>
-    
     );
   }
 };

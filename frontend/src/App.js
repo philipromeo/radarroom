@@ -15,7 +15,7 @@ const Auth = React.lazy(() => import("./Users/Pages/Auth"));
 const Home = React.lazy(() => import("./Home/Pages/Home"));
 const Users = React.lazy(() => import("./Users/Pages/Users"));
 const NewPlace = React.lazy(() => import("./Places/Pages/NewPlace"));
-const UserPlaces = React.lazy(() => import("./Places/Pages/UpdatePlace"));
+const UserPlaces = React.lazy(() => import("./Places/Pages/UserPlaces"));
 const UpdatePlace = React.lazy(() => import("./Places/Pages/UpdatePlace"));
 
 const App = () => {

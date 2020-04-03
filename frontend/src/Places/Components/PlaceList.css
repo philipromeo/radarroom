@@ -1,9 +1,7 @@
 .place-list {
-    list-style: none;
-    margin: auto;
-    padding: 0;
-    width: 90%;
-    max-width: 40rem;
-  }
-  
-  
+  list-style: none !important;
+  margin: auto !important;
+  padding: 0 !important;
+  width: 90% !important;
+  max-width: 40rem !important;
+}
